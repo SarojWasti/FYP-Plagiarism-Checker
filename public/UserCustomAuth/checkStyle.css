@@ -1,0 +1,30 @@
+.row .matchUrls{
+    font-family: "Helvetica" !important;
+}
+body {
+    background: #EEF2F7;
+    overflow-x: hidden;
+  }
+.box {
+    padding: 5%;
+    box-shadow:
+    0 15px 15px rgba(0, 0, 0, 0.034),
+    0 15px 15px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+    min-height: 500px;
+    width: 60vw;
+    margin-left: 5%;
+    background: white;
+    border-radius: 5px;
+}
+.resultBody{
+    width: 60vw;
+    margin-left: 5%;
+    background: white;
+    border-radius: 5px;
+}

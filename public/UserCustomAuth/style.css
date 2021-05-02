@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+/* navbar part */
+
+.navbar{
+    background-color: #070d59 !important;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-nav{
+    margin-right: 5%;
+}
+.nav-item button{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.nav-item .login{
+    background-color: grey !important;
+}
+.navbar-brand img{
+    width: 30;
+}
+.fa-1x {
+    font-size: 30px;
+}
+
+.checking-form{
+    margin: 5% 20% 0% 20%;
+}
+.hamburger-icon{
+    color:#fff;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+/*form part*/
+
+textarea{
+    resize: none;
+}
+.form-group .show-files{
+    color: #1f3c88;
+    font-weight: bold;
+}
+.form-group h3{
+    padding-bottom: 20px;
+    color: #1f3c88;
+}
+.brand-section a{
+    color: #1f3c88;
+    text-decoration: none;
+    font-size: 25px;
+}
+.already-text{
+    color: #1f3c88;
+}
+.already-text a{
+    color: #db6400;
+}
+.upload-files{
+    color: white;
+    background-color: #0062ff;
+    width: 180px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
+.btn{
+    color: white !important;
+} 
+.upload-files input{
+    overflow: hidden;
+    width: 0;
+}
+
+.submit-form{
+    width: 490px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.submit-form input{
+    height: 50px;
+    border-radius: 15px;
+}
+.brand-section{
+    margin-bottom: 30px;
+}
+.signup-form{
+    border-radius: 1px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+    padding: 50px 30px 50px 30px;
+}
+.signup-top{
+    color: #1f3c88;
+}
+.signup-form>*{
+    margin-top: 20px;
+}
+.signup-form input{
+    width: 100%;
+}
+.signup-form button{
+    width: 100%;
+}
+form label{
+    color: #717888;
+}
+.login-form{
+    margin-top: 5vh;
+}
+.sidebar ul li a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white !important;
+}
+.sidebar ul li a .fa{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.sidebar ul li a .fa:hover{
+    background-color: #3155cf;
+}
+
+@media screen and (max-width: 991px){
+    .nav-link button{
+        width: 100%;
+        text-align: center;
+
+    }
+}
